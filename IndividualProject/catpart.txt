@@ -1,0 +1,36 @@
+# File
+  File Extension:
+      Txt File.                                            [property txtfile] 
+      Not a txt file.                                      [property !txtfile] [error]
+  File Size:
+      Empty.                                                [single][property emptyfile] 
+      Not empty.
+  File Content:
+      Has Alphanumeric Characters only.                          [if !emptyfile && txtfile][property alpha]
+      Has none alphanumeric Characters only.			 [if !emptyfile && txtfile]
+      Combination of alpha and nonalpha.			 [if !emptyfile && txtfile]
+  File Content lines:
+      One.							 [if !emptyfile][property oneline]
+      Many.							 [f !empptyfile]
+
+#Filename
+  File Name Presence:
+      Present.
+      Not present.                                       [error]
+
+# Arguments
+  Number of options:
+      Zero.                                                 [single]][if !emptyfile && txtfile] 
+      At least One.                                                  [if !emptyfile && txtfile][property many]
+  Option Validicity:
+      Invalid option specified.                              [if !emptyfile][property invalidarg][error]
+      Valid option specified.                                         [if many][property validarg]
+  Pad and Trim Option Specification:
+      Has -p and -t option.                                  [if many]
+      Has -p without -t option.				     [if many] 
+      Has -t without -p option.				     [if many]
+      Has neither -p nor -t option.		             [if many][property nonept]     
+  Other Option Specification:
+      Has none of -k -g, -f and -r option.			[if many][if !nonept]
+      Has precisely one of -k -g, -f and -r option.             [if many][if oneline]
+      Has more than one of -k -g, -f and -r option.             [if many][if oneline]

@@ -1,0 +1,560 @@
+
+Test Case 1  		<error>
+   File Extension :  Not a txt file
+
+
+Test Case 2  		<single>
+   File Size :  Empty
+
+
+Test Case 3  		<error>
+   File Name Presence :  Not present
+
+
+Test Case 4  		<single>
+   Number of options :  Zero
+
+
+Test Case 5  		<error>  (follows [if])
+   Option Validicity :  Invalid option specified
+
+
+Test Case 6  		(Key = 1.2.1.1.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 7  		(Key = 1.2.1.1.1.2.2.1.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 8  		(Key = 1.2.1.1.1.2.2.1.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 9  		(Key = 1.2.1.1.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 10 		(Key = 1.2.1.1.1.2.2.2.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 11 		(Key = 1.2.1.1.1.2.2.2.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 12 		(Key = 1.2.1.1.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 13 		(Key = 1.2.1.1.1.2.2.3.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 14 		(Key = 1.2.1.1.1.2.2.3.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 15 		(Key = 1.2.1.1.1.2.2.4.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 16 		(Key = 1.2.1.1.1.2.2.4.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 17 		(Key = 1.2.1.2.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 18 		(Key = 1.2.1.2.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 19 		(Key = 1.2.1.2.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 20 		(Key = 1.2.1.2.1.2.2.4.0.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has Alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  <n/a>
+
+
+Test Case 21 		(Key = 1.2.2.1.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 22 		(Key = 1.2.2.1.1.2.2.1.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 23 		(Key = 1.2.2.1.1.2.2.1.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 24 		(Key = 1.2.2.1.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 25 		(Key = 1.2.2.1.1.2.2.2.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 26 		(Key = 1.2.2.1.1.2.2.2.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 27 		(Key = 1.2.2.1.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 28 		(Key = 1.2.2.1.1.2.2.3.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 29 		(Key = 1.2.2.1.1.2.2.3.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 30 		(Key = 1.2.2.1.1.2.2.4.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 31 		(Key = 1.2.2.1.1.2.2.4.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 32 		(Key = 1.2.2.2.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 33 		(Key = 1.2.2.2.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 34 		(Key = 1.2.2.2.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 35 		(Key = 1.2.2.2.1.2.2.4.0.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Has none alphanumeric Characters only
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  <n/a>
+
+
+Test Case 36 		(Key = 1.2.3.1.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 37 		(Key = 1.2.3.1.1.2.2.1.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 38 		(Key = 1.2.3.1.1.2.2.1.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 39 		(Key = 1.2.3.1.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 40 		(Key = 1.2.3.1.1.2.2.2.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 41 		(Key = 1.2.3.1.1.2.2.2.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 42 		(Key = 1.2.3.1.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 43 		(Key = 1.2.3.1.1.2.2.3.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 44 		(Key = 1.2.3.1.1.2.2.3.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 45 		(Key = 1.2.3.1.1.2.2.4.2.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has precisely one of -k -g, -f and -r option
+
+
+Test Case 46 		(Key = 1.2.3.1.1.2.2.4.3.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  One
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  Has more than one of -k -g, -f and -r option
+
+
+Test Case 47 		(Key = 1.2.3.2.1.2.2.1.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p and -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 48 		(Key = 1.2.3.2.1.2.2.2.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -p without -t option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 49 		(Key = 1.2.3.2.1.2.2.3.1.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has -t without -p option
+   Other Option Specification        :  Has none of -k -g, -f and -r option
+
+
+Test Case 50 		(Key = 1.2.3.2.1.2.2.4.0.)
+   File Extension                    :  Txt File
+   File Size                         :  Not empty
+   File Content                      :  Combination of alpha and nonalpha
+   File Content lines                :  Many
+   File Name Presence                :  Present
+   Number of options                 :  At least One
+   Option Validicity                 :  Valid option specified
+   Pad and Trim Option Specification :  Has neither -p nor -t option
+   Other Option Specification        :  <n/a>
+
